@@ -24,6 +24,14 @@ a {
     color: #677886;
 }
 
+a:hover:not(.btn) {
+    color: dodgerblue;
+}
+
+a.btn:hover {
+    color: green;
+}
+
 /* LAYOUT */
 
 .container {
@@ -129,6 +137,38 @@ a {
 
 /* JUMBOTRON */
 .jumbotron {
+    position: relative;
     height: 700px;
     background-image: url('../img/jumbotron.png');
+    background-size: cover;
+}
+
+.jumbotron .jumbo-text {
+    height: 100%;
+    padding-top: 50px;
+}
+
+.jumbotron .jumbo-text h1 {
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.jumbotron .jumbo-text p {
+    margin-bottom: 40px;
+}
+
+.jumbotron .jumbo-text a {
+    margin-bottom: 40px;
+}
+
+.jumbotron .jumbo-text p:last-child {
+    font-size: 12px;
+}
+
+.jumbotron hr {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background: #afebe4;
 }
