@@ -339,3 +339,39 @@ a.btn:hover {
 .learn-grow .float-left .learn-text {
     font-size: 14px;
 }
+
+/* CUSTOMERS SECTION */
+.customers {
+    background: #fff;
+    max-height: 100%;
+    padding: 50px;
+}
+
+.customers .cust-text {
+    width: 20%;
+    text-align: center;
+}
+ .customers .cust-text > div {
+     font-size: 40px;
+     font-weight: 600;
+     padding-bottom: 50px;
+ }
+
+ .customers .cust-logo {
+     width: 80%;
+     text-align: right;
+ }
+
+ .customers .cust-logo img {
+     max-width: 200px;
+     vertical-align: middle;
+     padding-bottom: 50px;
+     padding-right: 20px;
+     transition: .3s ease-in-out;
+ }
+
+ .customers .cust-logo img:hover {
+    transform: scale(1.1);
+ }
+
+/* WOMAN SECTION */
