@@ -9,6 +9,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     padding-top: 160px;
+    background: #f4f9fd;
 }
 
 h1,
@@ -56,6 +57,11 @@ a.btn:hover {
 .w-50 {
     width: 50%;
 }
+
+.fa-check-circle {
+    color: #fe775a;
+}
+
 
 /* MENU */
 .menu-inline li {
@@ -153,10 +159,7 @@ a.btn:hover {
     font-size: 40px;
 }
 
-.jumbotron .jumbo-text p {
-    margin-bottom: 40px;
-}
-
+.jumbotron .jumbo-text p,
 .jumbotron .jumbo-text a {
     margin-bottom: 40px;
 }
@@ -171,4 +174,20 @@ a.btn:hover {
     width: 100%;
     height: 80px;
     background: #afebe4;
+}
+
+/* POWER SECTION */
+.powerful .container {
+    width: 65%;
+    text-align: center;
+    padding: 50px;
+}
+
+.powerful .container img {
+    width: 200px;
+}
+
+.powerful .container h2,
+.powerful .container p {
+    padding-bottom: 40px;
 }
