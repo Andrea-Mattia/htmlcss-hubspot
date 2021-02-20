@@ -58,7 +58,7 @@ a.btn:hover {
     width: 50%;
 }
 
-.circle-list li {
+.left-al-list li {
     list-style: none;
     text-align: left;
 }
@@ -405,4 +405,66 @@ a.btn:hover {
 .woman .woman-text div {
     padding-top: 50px;
     font-size: 14px;
+}
+
+/* FOOTER */
+.foot {
+    background: #32495b;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.foot .left-al-list {
+    padding-right: 100px;
+}
+
+.foot .left-al-list li:first-child {
+    padding-bottom: 20px;
+}
+
+.foot .left-al-list li {
+    padding-top: 10px;
+}
+
+.foot .left-al-list li a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.foot .left-al-list li a:hover {
+    text-decoration: underline;
+    color: dodgerblue;
+}
+
+.foot .left-al-list li a.btn {
+    font-size: 12px;
+    background: #fff;
+    color: #32495b;
+    border: 1px solid transparent;
+}
+
+/* BOTTOM FOOTER */
+.foot .menu-inline {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.foot .menu-inline li a {
+    color: #fff;
+}
+
+.foot .menu-inline li a:hover {
+    color: dodgerblue;
+}
+
+.foot .foot-logo {
+    padding-top: 50px;
+}
+
+.foot-logo img {
+    padding-bottom: 10px;
+}
+
+.foot .foot-text {
+    padding-top: 50px;
 }
