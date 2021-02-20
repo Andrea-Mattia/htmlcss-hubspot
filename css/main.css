@@ -348,8 +348,9 @@ a.btn:hover {
 }
 
 .customers .cust-text {
-    width: 20%;
-    text-align: center;
+    width: 25%;
+    padding: 0 50px;
+    text-align: left;
 }
  .customers .cust-text > div {
      font-size: 40px;
@@ -358,7 +359,7 @@ a.btn:hover {
  }
 
  .customers .cust-logo {
-     width: 80%;
+     width: 75%;
      text-align: right;
  }
 
@@ -375,3 +376,33 @@ a.btn:hover {
  }
 
 /* WOMAN SECTION */
+.woman {
+    background: #fff;
+    padding-bottom: 50px;
+}
+
+.woman .woman-text {
+    width: 42%;
+}
+
+.woman .woman-text h2 {
+    font-size: 32px;
+}
+
+.woman .woman-text p {
+    padding: 50px 0;
+}
+
+.woman .woman-img {
+    width: 58%;
+    text-align: right;
+}
+
+.woman .woman-img img {
+    height: 500px;
+}
+
+.woman .woman-text div {
+    padding-top: 50px;
+    font-size: 14px;
+}
