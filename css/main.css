@@ -30,7 +30,11 @@ a:hover:not(.btn) {
 }
 
 a.btn:hover {
-    color: green;
+    background-color: #fff1ee;
+}
+
+a.btn-orange:hover {
+    background-color: #ffbcac;
 }
 
 /* LAYOUT */
@@ -107,6 +111,7 @@ a.btn:hover {
     color: #f4f9fd;
     background: #fe775a;
     border: 1px solid transparent;
+    transition: .3s ease-in-out;
 }
 
 .btn.btn-big {
