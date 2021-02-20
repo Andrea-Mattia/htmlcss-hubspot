@@ -205,6 +205,14 @@ a.btn:hover {
 }
 
 /* HUB SECTION */
+.hub .container {
+    transition: .3s ease-in-out
+}
+
+.hub .container:hover {
+    transform: scale(1.014);
+}
+
 .hub .free-crm .book-img {
     width: 30%;
     padding: 50px 100px;
@@ -243,11 +251,18 @@ a.btn:hover {
     margin: 50px 0;
     padding: 50px;
     text-align: center;
+    transition: .3s ease-in-out;
 }
 
 .hub .clmn2 {
     margin-right: 5%;
     margin-left: 5%;
+}
+
+.hub .clmn1:hover,
+.hub .clmn2:hover,
+.hub .clmn3:hover {
+    transform: scale(1.014);
 }
 
 .hub .clmn1 img,
@@ -278,4 +293,49 @@ a.btn:hover {
 .hub .clmn2 a,
 .hub .clmn3 a {
     margin-top: 40px;
+}
+
+/* LEARN AND GROW SECTION */
+.learn-grow {
+    background-image: linear-gradient(to right, #00a8b9, #00baa8);
+    text-align: center;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.learn-grow .container p {
+    padding: 50px 0;
+    font-size: 14px;
+}
+
+.learn-grow .float-left {
+    width: 25%;
+    padding: 20px 50px;
+    border-right: 1px solid #fff;
+}
+
+.learn-grow .float-left.bot {
+    border-top: 1px solid #fff;
+}
+
+.learn-grow .float-left:nth-child(6) {
+    border: none;
+}
+
+.learn-grow .float-left:last-child {
+    border-right: none;
+}
+
+.learn-grow .float-left .learn-number {
+    font-size: 40px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+.learn-grow .float-left span {
+    font-weight: normal;
+}
+
+.learn-grow .float-left .learn-text {
+    font-size: 14px;
 }
