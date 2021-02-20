@@ -58,8 +58,20 @@ a.btn:hover {
     width: 50%;
 }
 
+.circle-list li {
+    list-style: none;
+    text-align: left;
+}
+
 .fa-check-circle {
     color: #fe775a;
+    margin-right: 15px;
+}
+
+.box {
+    background: #fff;
+    box-shadow: 1px 1px 5px 3px rgba(0,0,0, .25);
+    border-radius: 5px;
 }
 
 
@@ -190,4 +202,80 @@ a.btn:hover {
 .powerful .container h2,
 .powerful .container p {
     padding-bottom: 40px;
+}
+
+/* HUB SECTION */
+.hub .free-crm .book-img {
+    width: 30%;
+    padding: 50px 100px;
+}
+
+.free-crm .book-img img {
+    padding-bottom: 50px;
+}
+
+.free-crm .free-hub {
+    width: 70%;
+    padding: 50px 70px;
+}
+
+.free-crm .free-hub h3 {
+    padding-bottom: 50px;
+}
+
+.free-crm .free-hub p,
+.free-crm .free-hub h4 {
+    padding-bottom: 30px;
+}
+
+.free-crm .free-hub h4 span {
+    display: inline-block;
+    width: 60%;
+    padding-left: 80px;
+    vertical-align: middle;
+}
+
+/* HUB COLUMNS */
+.hub .clmn1,
+.hub .clmn2,
+.hub .clmn3 {
+    width: 30%;
+    margin: 50px 0;
+    padding: 50px;
+    text-align: center;
+}
+
+.hub .clmn2 {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.hub .clmn1 img,
+.hub .clmn2 img,
+.hub .clmn3 img {
+    height: 100px;
+}
+
+.hub .clmn1 h3,
+.hub .clmn2 h3,
+.hub .clmn3 h3 {
+    padding: 30px 0;
+}
+
+.hub .clmn1 p,
+.hub .clmn2 p,
+.hub .clmn3 p {
+    padding-bottom: 50px;
+}
+
+.hub .clmn1 h4,
+.hub .clmn2 h4,
+.hub .clmn3 h4 {
+    padding: 30px 0;
+}
+
+.hub .clmn1 a,
+.hub .clmn2 a,
+.hub .clmn3 a {
+    margin-top: 40px;
 }
