@@ -67,11 +67,6 @@ a.btn-orange:hover {
     text-align: left;
 }
 
-.dropdown-menu li {
-    list-style: none;
-    line-height: 2;
-}
-
 .fa-check-circle {
     color: #fe775a;
     margin-right: 15px;
@@ -83,8 +78,12 @@ a.btn-orange:hover {
     border-radius: 5px;
 }
 
-
 /* MENU */
+.menu-inline {
+    position: relative;
+}
+
+
 .menu-inline li {
     display: inline-block;
     list-style: none;
@@ -108,10 +107,36 @@ a.btn-orange:hover {
 
 .dropdown-menu li {
     display: block;
-    margin: 0;
+    list-style: none;
+    line-height: 2;
     padding: 5px 20px;
+    text-align: left;
 }
 
+.dropdown-menu.container {
+    right: 0;
+    line-height: 2;
+}
+
+.dropdown-menu.box > div {
+    display: inline-block;
+    width: 30%;
+    padding: 20px 30px;
+}
+
+.dropdown-menu .box1 {
+    margin: 10px;
+    border: 1px solid transparent;
+}
+
+.box1:hover {
+    border: 1px solid rgba(0,0,0, .10);
+}
+
+.dropdown-menu.box > div:first-child {
+    height: 350px;
+    background: #f5f8fa;
+}
 /* BUTTONS */
 .btn {
     display: inline-block;
@@ -155,11 +180,11 @@ a.btn-orange:hover {
     max-width: 100%;
 }
 
-.main-header .float-left {
+.main-header .world {
     width: 30%;
 }
 
-.main-header .float-right {
+.main-header .login {
     width: 70%;
     text-align: right;
 }
