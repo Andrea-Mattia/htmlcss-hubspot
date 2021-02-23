@@ -67,6 +67,11 @@ a.btn-orange:hover {
     text-align: left;
 }
 
+.dropdown-menu li {
+    list-style: none;
+    line-height: 2;
+}
+
 .fa-check-circle {
     color: #fe775a;
     margin-right: 15px;
@@ -94,6 +99,18 @@ a.btn-orange:hover {
     color: dodgerblue;
 }
 
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    min-width: 100px;
+}
+
+.dropdown-menu li {
+    display: block;
+    margin: 0;
+    padding: 5px 20px;
+}
 
 /* BUTTONS */
 .btn {
@@ -145,6 +162,10 @@ a.btn-orange:hover {
 .main-header .float-right {
     width: 70%;
     text-align: right;
+}
+
+.menu-inline li:first-child:hover .dropdown-menu {
+    display: block;
 }
 
 /* SECOND HEADER */
